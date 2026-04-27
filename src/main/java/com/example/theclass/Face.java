@@ -98,10 +98,10 @@ public class Face {
                         new Size(500, 500)
                 );
 
-                // 5. 获取第一个检测到的人脸
+            
                 org.opencv.core.Rect[] facesArray = faces.toArray();
 
-                // 释放内存
+           
                 srcMat.release();
                 grayMat.release();
                 equalizedMat.release();
