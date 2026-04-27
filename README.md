@@ -43,11 +43,11 @@ A Classroom Attendance System Based on Bluetooth Beacon and Face Recognition
 
 2. Default Login Credentials
 
-   Username: admin    Password: 00000    Role: Admin
-   Username: user1    Password: 12345    Role: Student
-   Username: user2    Password: 54321    Role: Student
-   Username: user3    Password: 54321    Role: Student
-   Username: user4    Password: 54321    Role: Student
+ -  Username: admin    Password: 00000    Role: Admin
+ -  Username: user1    Password: 12345    Role: Student
+ -  Username: user2    Password: 54321    Role: Student
+ -  Username: user3    Password: 54321    Role: Student
+ -  Username: user4    Password: 54321    Role: Student
 
 
 
