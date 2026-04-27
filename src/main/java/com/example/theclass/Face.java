@@ -71,10 +71,8 @@ public class Face {
     }
 
     public static class FaceDetector {
-
         public static Rect detectFace(Bitmap bitmap) {
             if (!isOpenCVLoaded || cascadeClassifier == null) {
-
                 return null;
             }
             try {
@@ -97,11 +95,9 @@ public class Face {
                         new Size(60, 60),
                         new Size(500, 500)
                 );
-
             
                 org.opencv.core.Rect[] facesArray = faces.toArray();
 
-           
                 srcMat.release();
                 grayMat.release();
                 equalizedMat.release();
@@ -109,7 +105,6 @@ public class Face {
 
                 if (facesArray.length > 0) {
                     org.opencv.core.Rect face = facesArray[0];
-
 
                     int expand = (int)(face.width * 0.1);
                     int left = Math.max(0, face.x - expand);
